@@ -1,0 +1,1452 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+  max-width: 90vw;
+}
+
+.fixed-top {
+  top: 1px !important;
+}
+
+.services {
+  padding-top: 6rem;
+}
+
+.expertise {
+  padding-top: 6rem;
+}
+
+.industries {
+  padding-top: 6rem;
+}
+
+.experience {
+  padding-top: 4rem;
+}
+
+.title-wrapper {
+  border-left: #000 solid 3px;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-bottom: 1vh;
+}
+
+.bold-title {
+  padding-left: 1vw;
+  font-weight: 500;
+}
+
+.blur-title {
+  color: #666666;
+  font-weight: 500;
+}
+
+.small-text {
+  padding-left: 3vw;
+  color: #666666;
+  font-size: 1.5em;
+}
+
+.card1 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position-x: center, center;
+  background-position-y: 2%;
+  background-size: 100px;
+  background-image: url("../images/Software Development.png");
+}
+
+.active1 {
+  background-image: url("../images/Software Development_1.png");
+}
+
+.card2 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position-x: center, center;
+  background-position-y: 2%;
+  background-size: 100px;
+  background-image: url("../images/Cloud Solutions.png");
+}
+
+.active2 {
+  background-image: url("../images/Cloud Solutions_1.png");
+}
+
+.card3 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position-x: center, center;
+  background-position-y: 2%;
+  background-size: 100px;
+  background-image: url("../images/Devops.png");
+}
+
+.active3 {
+  background-image: url("../images/Devops_1.png");
+}
+
+.card4 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position-x: center, center;
+  background-position-y: 2%;
+  background-size: 100px;
+  background-image: url("../images/Infrastucture Sevices.png");
+}
+
+.active4 {
+  background-image: url("../images/Infrastucture Sevices_1.png");
+}
+
+.card-title {
+  color: #000;
+  font-weight: bold;
+  font-size: clamp(1.4em, 2.1vw, 2.1em);
+  text-align: center;
+  margin-top: 18vh;
+  margin-bottom: 0.5vh;
+}
+
+.card-body {
+  color: #000;
+  text-align: center;
+  margin-bottom: -0.25rem;
+}
+
+.border-blue {
+  border-bottom: 10px solid #26b0e5;
+}
+
+.border-red {
+  border-bottom: 10px solid #e8505b;
+}
+
+.border-orange {
+  border-bottom: 10px solid #f6a93c;
+}
+
+.border-green {
+  border-bottom: 10px solid #34d81e;
+}
+
+main {
+  min-width: 320px;
+  padding: 25px;
+  margin: 0 auto;
+}
+
+input {
+  display: none;
+}
+
+.tab-content {
+  display: none;
+  padding: 20px 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.tab-content-text {
+  padding-top: 4%;
+  font-size: 16px;
+  width: 100%;
+}
+
+label {
+  display: inline-block;
+  margin: 0 0 -1px;
+  padding: 15px 25px;
+  font-weight: 600;
+  text-align: center;
+  color: #bbb;
+  border: 1px solid transparent;
+}
+
+label:before {
+  font-family: fontawesome;
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+label[for*='1']:before {
+  content: '\f268';
+}
+
+label[for*='2']:before {
+  content: '\f10b';
+}
+
+label[for*='3']:before {
+  content: '\f0ed';
+}
+
+label[for*='4']:before {
+  content: '\f289';
+}
+
+label[for*='5']:before {
+  content: '\f0c2';
+}
+
+label:hover {
+  color: #888;
+  cursor: pointer;
+}
+
+input:checked + label {
+  background: #00008b;
+  color: #fff;
+  border: 1px solid #ddd;
+  border: 2px solid #00008b;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5 {
+  display: block;
+}
+
+.industry-card1 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 190px;
+  background-image: url("../images/1. Manufacturing Sector.png");
+}
+
+.industry-card2 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 130px;
+  background-image: url("../images/2. Media and Entertainment.png");
+}
+
+.industry-card3 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 190px;
+  background-image: url("../images/3. Healthcare and Pharma.png");
+}
+
+.industry-card4 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 190px;
+  background-image: url("../images/4. Automobile sector.png");
+}
+
+.industry-card5 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 130px;
+  background-image: url("../images/5. Information Technology.png");
+}
+
+.industry-card6 {
+  position: relative;
+  background-color: white;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: auto;
+  border: 1px solid #e4e5e5;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  -webkit-transition: background 200ms;
+  transition: background 200ms;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 190px;
+  background-image: url("../images/6. Tourism Industry.png");
+}
+
+.industry-card-number {
+  padding-top: 6.5rem;
+  padding-left: 1.5rem;
+}
+
+.active-number {
+  color: #263f92;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 25px;
+}
+
+.inactive-number {
+  color: #989898;
+  font-weight: 200;
+  font-size: 22px;
+}
+
+.industry-card-header {
+  padding-top: 1.5rem;
+  color: black;
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 30px;
+  text-align: center;
+}
+
+.industry-card-body {
+  padding-left: 1.5rem;
+  padding-right: 0.2 rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #666666;
+  font-size: 15px;
+}
+
+.exp-card-1 {
+  background-image: url("../images/Project.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-size: 15%;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.exp-card-active1 {
+  background-image: url("../images/Project-1.png");
+  border-radius: 20px;
+  -webkit-box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+          box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+  color: #264d9d;
+}
+
+.exp-card-2 {
+  background-image: url("../images/Expertise Professionals.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-size: 15%;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.exp-card-active2 {
+  background-image: url("../images/Expertise Professionals-1.png");
+  border-radius: 20px;
+  -webkit-box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+          box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+  color: #264d9d;
+}
+
+.exp-card-3 {
+  background-image: url("../images/happy.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-size: 15%;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.exp-card-active3 {
+  background-image: url("../images/happy-1.png");
+  border-radius: 20px;
+  -webkit-box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+          box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+  color: #264d9d;
+}
+
+.exp-card-4 {
+  background-image: url("../images/worldwide-location.png");
+  background-repeat: no-repeat;
+  background-position: center 10px;
+  background-size: 15%;
+  height: 150px;
+  margin-bottom: 1rem;
+}
+
+.exp-card-active4 {
+  background-image: url("../images/worldwide-location-1.png");
+  border-radius: 20px;
+  -webkit-box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+          box-shadow: 1.253px 8.912px 52.44px 4.56px rgba(33, 33, 33, 0.15);
+  color: #264d9d;
+}
+
+.exp-card-heading {
+  padding-top: 4rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.exp-card-body {
+  text-align: center;
+}
+
+.clients-talk-wrapper,
+.clients-talk-img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients-talk-card {
+  border-radius: 20px;
+  background-color: #fbfbfb;
+  -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+          box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12);
+  height: auto;
+  width: auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.clients-talk-img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 4px solid #26b9ec;
+  margin-top: 1rem;
+}
+
+.clients-talk-body {
+  padding-left: 2rem;
+  padding-right: 1.7rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #8b8b8b;
+}
+
+.clients-body-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.clients-talk-name {
+  display: block;
+  color: #26b9ec;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.clients-talk-country {
+  display: block;
+  color: #666666;
+}
+
+.footer {
+  width: 98vw;
+  background-image: -webkit-linear-gradient(97deg, #26348a 0%, #26bdef 100%);
+  margin-left: 1vw;
+  height: auto;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-logo {
+  margin-bottom: 1rem;
+}
+
+.main-link,
+.main-link:hover,
+.main-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.sub-link,
+.sub-link:hover,
+.sub-link:visited {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.mini-heading {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.inline-text {
+  padding-bottom: 1rem;
+}
+
+.social-links {
+  text-decoration: none;
+  font-weight: bold;
+  background: #fff;
+  color: #265ea9;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  margin-right: 1rem;
+  font-size: large;
+}
+
+.formWrapper {
+  background: #fff;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.text-input {
+  background: #e7eaf3;
+  border-radius: 5px;
+}
+
+.footer-submit {
+  background-color: #26b9ec;
+  color: white;
+  padding: 8px 20px 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border: 1px solid #26b9ec;
+  border-radius: 10px;
+}
+
+.copyright-text {
+  background: #fff;
+  color: #000;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 0px) and (max-width: 480px) {
+  .logo-img {
+    height: 6vh;
+  }
+  .img-intro {
+    display: none;
+  }
+  .img-intro-mobile {
+    width: 85vw;
+  }
+  .center-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .intro-heading {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+    color: #666666;
+    line-height: 1.3;
+    padding-bottom: 1rem;
+  }
+  .custom-btn {
+    color: #fff;
+    font-size: 2rem;
+    width: 50vw;
+    border-radius: 10px;
+    background-color: #4067f3;
+    border-color: #4067f3;
+  }
+  .services-container-pc-wrapper,
+  .industries-container-wrapper {
+    display: none;
+  }
+  .card1 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Software Development_1.png");
+  }
+  .card2 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Cloud Solutions_1.png");
+  }
+  .card3 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Devops_1.png");
+  }
+  .card4 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Infrastucture Sevices_1.png");
+  }
+  .industry-card1 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/1. Manufacturing Sector.png");
+  }
+  .industry-card2 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 20vh;
+    background-image: url("../images/2. Media and Entertainment.png");
+  }
+  .industry-card3 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/3. Healthcare and Pharma.png");
+  }
+  .industry-card4 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/4. Automobile sector.png");
+  }
+  .industry-card5 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 20vh;
+    background-image: url("../images/5. Information Technology.png");
+  }
+  .industry-card6 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/6. Tourism Industry.png");
+  }
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+  .laptop-exp-wrapper {
+    display: none;
+  }
+  .footer {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .logo-img {
+    height: 7vh;
+  }
+  .img-intro {
+    display: none;
+  }
+  .img-intro-mobile {
+    width: 80vw;
+  }
+  .center-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .intro-heading {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+    color: #666666;
+    line-height: 1.3;
+    padding-bottom: 1rem;
+  }
+  .custom-btn {
+    color: #fff;
+    font-size: 2rem;
+    width: 50vw;
+    border-radius: 10px;
+    background-color: #4067f3;
+    border-color: #4067f3;
+  }
+  .services-container-pc-wrapper,
+  .industries-container-wrapper {
+    display: none;
+  }
+  .card1 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Software Development_1.png");
+  }
+  .card2 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Cloud Solutions_1.png");
+  }
+  .card3 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Devops_1.png");
+  }
+  .card4 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: 30vw 1.2vh;
+    background-size: 12vh;
+    background-image: url("../images/Infrastucture Sevices_1.png");
+  }
+  .card-body {
+    color: #000;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .industry-card1 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/1. Manufacturing Sector.png");
+  }
+  .industry-card2 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 20vh;
+    background-image: url("../images/2. Media and Entertainment.png");
+  }
+  .industry-card3 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/3. Healthcare and Pharma.png");
+  }
+  .industry-card4 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/4. Automobile sector.png");
+  }
+  .industry-card5 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 20vh;
+    background-image: url("../images/5. Information Technology.png");
+  }
+  .industry-card6 {
+    border-radius: 20px;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    box-shadow: 0px 0px 40.5px 9.5px rgba(33, 33, 33, 0.12), inset 0px -15px 0px 0px rgba(38, 176, 229, 0.004);
+    text-align: left;
+    padding: 5vw;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 25vh;
+    background-image: url("../images/6. Tourism Industry.png");
+  }
+  label {
+    font-size: 0;
+  }
+  label:before {
+    margin: 0;
+    font-size: 18px;
+  }
+  .laptop-exp-wrapper {
+    display: none;
+  }
+  .footer {
+    width: 100vw;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .logo-img {
+    height: 7vh;
+  }
+  .img-intro-mobile {
+    display: none;
+  }
+  .img-intro {
+    position: absolute;
+    height: 70vh;
+    width: 50vw;
+    left: 43vw;
+    top: 0.5vh;
+  }
+  .intro-heading {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 30rem;
+    padding-left: 8rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+    color: #666666;
+    line-height: 1.3;
+    width: 22rem;
+    padding-left: 8rem;
+    padding-bottom: 1rem;
+  }
+  .custom-btn {
+    color: #fff;
+    font-size: 2rem;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #4067f3;
+    border-color: #4067f3;
+    margin-left: 8rem;
+  }
+  .services-container-mobile-wrapper,
+  .industries-container-mobile-wrapper {
+    display: none;
+  }
+  .industry-bg-1 {
+    background-image: url("../images/1. Manufacturing Sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-2 {
+    background-image: url("../images/2. Media and Entertainment.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-3 {
+    background-image: url("../images/3. Healthcare and Pharma.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-4 {
+    background-image: url("../images/4. Automobile sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-5 {
+    background-image: url("../images/5. Information Technology.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-6 {
+    background-image: url("../images/6. Tourism Industry.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .tab-content {
+    background-image: url("../images/expertise.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 300px;
+  }
+  .tab-content-text {
+    padding-top: 4%;
+    font-size: 16px;
+    width: 60%;
+  }
+  .mobile-exp-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .logo-img {
+    height: 7vh;
+  }
+  .img-intro-mobile {
+    display: none;
+  }
+  .img-intro {
+    position: absolute;
+    width: 600px;
+    left: 40vw;
+    top: 0.5vh;
+  }
+  .intro-heading {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 30rem;
+    padding-left: 8rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+    color: #666666;
+    line-height: 1.3;
+    width: 30rem;
+    padding-left: 8rem;
+    padding-bottom: 1rem;
+  }
+  .custom-btn {
+    color: #fff;
+    font-size: 2rem;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #4067f3;
+    border-color: #4067f3;
+    margin-left: 8rem;
+  }
+  .services-container-mobile-wrapper,
+  .industries-container-mobile-wrapper {
+    display: none;
+  }
+  .industry-bg-1 {
+    background-image: url("../images/1. Manufacturing Sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-2 {
+    background-image: url("../images/2. Media and Entertainment.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-3 {
+    background-image: url("../images/3. Healthcare and Pharma.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-4 {
+    background-image: url("../images/4. Automobile sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-5 {
+    background-image: url("../images/5. Information Technology.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-6 {
+    background-image: url("../images/6. Tourism Industry.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .tab-content {
+    background-image: url("../images/expertise.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 300px;
+  }
+  .tab-content-text {
+    padding-top: 4%;
+    font-size: 16px;
+    width: 60%;
+  }
+  .mobile-exp-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 1441px) and (max-width: 1999px) {
+  .logo-img {
+    height: 7vh;
+  }
+  .img-intro-mobile {
+    display: none;
+  }
+  .img-intro {
+    position: absolute;
+    height: 70vh;
+    width: 42vw;
+    left: 40vw;
+    top: 1.5vh;
+  }
+  .intro-heading {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 30rem;
+    padding-left: 8rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+    color: #666666;
+    line-height: 1.3;
+    width: 30rem;
+    padding-left: 8rem;
+    padding-bottom: 1rem;
+  }
+  .custom-btn {
+    color: #fff;
+    font-size: 2rem;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #4067f3;
+    border-color: #4067f3;
+    margin-left: 8rem;
+  }
+  .services-container-mobile-wrapper,
+  .industries-container-mobile-wrapper {
+    display: none;
+  }
+  .industry-bg-1 {
+    background-image: url("../images/1. Manufacturing Sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-2 {
+    background-image: url("../images/2. Media and Entertainment.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-3 {
+    background-image: url("../images/3. Healthcare and Pharma.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-4 {
+    background-image: url("../images/4. Automobile sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-5 {
+    background-image: url("../images/5. Information Technology.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-6 {
+    background-image: url("../images/6. Tourism Industry.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .tab-content {
+    background-image: url("../images/expertise.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 300px;
+  }
+  .tab-content-text {
+    padding-top: 4%;
+    font-size: 16px;
+    width: 60%;
+  }
+  .mobile-exp-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 80vw;
+  }
+  .logo-img {
+    height: 6vh;
+  }
+  .img-intro-mobile {
+    display: none;
+  }
+  .img-intro {
+    position: absolute;
+    height: 500px;
+    width: 600px;
+    left: 40%;
+    top: 0vh;
+  }
+  .intro-heading {
+    font-size: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 30rem;
+    padding-left: 8rem;
+  }
+  .intro-sub-heading {
+    font-size: 1.5rem;
+    color: #666666;
+    line-height: 1.3;
+    width: 30rem;
+    padding-left: 8rem;
+    padding-bottom: 1rem;
+  }
+  .custom-btn {
+    color: #fff;
+    font-size: 2rem;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #4067f3;
+    border-color: #4067f3;
+    margin-left: 8rem;
+  }
+  .services-container-mobile-wrapper,
+  .industries-container-mobile-wrapper {
+    display: none;
+  }
+  .industry-bg-1 {
+    background-image: url("../images/1. Manufacturing Sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-2 {
+    background-image: url("../images/2. Media and Entertainment.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-3 {
+    background-image: url("../images/3. Healthcare and Pharma.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-4 {
+    background-image: url("../images/4. Automobile sector.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-5 {
+    background-image: url("../images/5. Information Technology.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .industry-bg-6 {
+    background-image: url("../images/6. Tourism Industry.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 350px;
+  }
+  .tab-content {
+    background-image: url("../images/expertise.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 300px;
+  }
+  .tab-content-text {
+    padding-top: 4%;
+    font-size: 16px;
+    width: 60%;
+  }
+  .mobile-exp-wrapper {
+    display: none;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

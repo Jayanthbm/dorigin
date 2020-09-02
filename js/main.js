@@ -1,9 +1,3 @@
-// window.addEventListener('scroll', function () {
-// 	var nav = document.getElementById('sticky');
-// 	nav.classList.toggle('fixed-top', window.scrollY > 40);
-
-// });
-
 $(document).ready(function () {
 	$('.services-container-mobile').slick({
 		dots: true,

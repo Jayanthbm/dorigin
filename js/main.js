@@ -1,3 +1,11 @@
+$('.menu-toggle').click(function () {
+	$('.nav').toggleClass('mobile-nav');
+	$(this).toggleClass('is-active');
+});
+$('.nav-item').click(function () {
+	$('#mobile-menu').removeClass('is-active');
+	$('#nav').removeClass('mobile-nav');
+});
 $(document).ready(function () {
 	$('.services-container-mobile').slick({
 		dots: true,
